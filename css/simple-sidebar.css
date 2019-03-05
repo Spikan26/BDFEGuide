@@ -77,6 +77,8 @@ body {
 }
 
 .jobpicture{
+    width: 200px;
+    height: auto;
     overflow-wrap: break-word;
     float: left;
 }
@@ -84,7 +86,7 @@ body {
 .jobtext{
     overflow-wrap: break-word;
     float: left;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 
 .jobeffect{
@@ -93,6 +95,6 @@ body {
 }
 
 .buffeffect{
-    margin-left: 10px;
+    margin-left: 20px;
     float: left;
 }
