@@ -11,8 +11,9 @@
 }
 
 #tooltip.alt-tooltip {
-    background:rgba(242, 255, 235, 0.9);
+    background-color: rgba(242, 255, 235, 0.9);
     padding:8px;
     border-radius: 25px;
     color: black;
+
 }
