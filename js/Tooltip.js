@@ -94,19 +94,19 @@
         var scrollX = window.scrollX || window.pageXOffset;
         var tooltipTop = evt.pageY + offset;
         var tooltipLeft = evt.pageX + offset;
-        
-        /* TEST SCRIPT */
-        
-        if (tooltipLeft < 0) {
-            tooltipLeft = 0;
-        }
-        
-        /* END TEST SCRIPT */
 
         if (tooltipElm) {
             tooltipTop = (tooltipTop - scrollY + tooltipElm.offsetHeight + 20 >= window.innerHeight ? (tooltipTop - tooltipElm.offsetHeight - 20) : tooltipTop);
             tooltipLeft = (tooltipLeft - scrollX + tooltipElm.offsetWidth + 20 >= window.innerWidth ? (tooltipLeft - tooltipElm.offsetWidth - 20) : tooltipLeft);
 
+            /* TEST SCRIPT */
+        
+             if (tooltipLeft < 0) {
+                 tooltipLeft = 0;
+             }
+        
+            /* END TEST SCRIPT */
+            
             tooltipElm.style.top = tooltipTop + "px";
             tooltipElm.style.left = tooltipLeft + "px";
         }
