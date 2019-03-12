@@ -97,3 +97,13 @@ body {
     margin-left: 20px;
     float: left;
 }
+
+/* //////////////////////////// */
+/* ////  RESSOURCES PART   //// */
+/* //////////////////////////// */
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
