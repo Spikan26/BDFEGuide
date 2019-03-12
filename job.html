@@ -21,6 +21,7 @@
     <script> 
     $(function(){
       $("#sidebar-wrapper").load("navmenu.html"); 
+      $('[data-toggle="tooltip"]').tooltip();
     });
     </script> 
     
@@ -68,7 +69,7 @@
                     Knights generate aggro with some specials and skills, they also provide good boost to the party.</p>
                 </div>
             <div class="col-12 jobeffect"><hr><strong>Buff / Debuff List</strong><hr></div>
-                <img data-tooltip="{ 'offset': -70, 'class': 'alt-tooltip' }" title="PHALANX : Damage increases for allies in same row or behind user" class="buffeffect" src="image/job/phalanx.png" width="40px" height="50px">
+                <img data-toggle="tooltip" title="PHALANX : Damage increases for allies in same row or behind user" class="buffeffect" src="image/job/phalanx.png" width="40px" height="50px">
                 <img data-tooltip="{ 'offset': -70, 'class': 'alt-tooltip' }" title="PROTECT ALLY : User receives 50% of damage taken by allies in same row or behind user" class="buffeffect" src="image/job/protect_ally.png" width="40px" height="50px">
                 <img data-tooltip="{ 'offset': -70, 'class': 'alt-tooltip' }" title="ENDURE : Survive one fatal attack with 1 HP" class="buffeffect" src="image/job/endure.png" width="40px" height="50px">
                 <img data-tooltip="{ 'offset': -70, 'class': 'alt-tooltip' }" title="DUELING : Reflect damage" class="buffeffect" src="image/job/dueling.png" width="40px" height="50px">
